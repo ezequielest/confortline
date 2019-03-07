@@ -1,0 +1,685 @@
+.principal {
+    position: absolute;
+    top: 0px;
+    background-image: url('../assets/img/home3.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: bottom left;
+    animation-name: changeImg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    z-index: 800;
+}
+
+*{
+ margin: 0px;
+ padding: 0px; 
+}
+/*****************************************
+HEADER
+******************************************/
+
+.layer {
+    position: relative;
+    top: 0px;
+    background-image: url('../assets/img/home.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: bottom left;
+    z-index: 700;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    z-index: 900;
+    top: 40px;
+    overflow: hidden;
+}
+
+header .logo {
+    font-size: 60px;
+}
+
+header .menu {
+   color: #fff; 
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+header .menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .menu a:hover {
+    color: #ff800a;
+}
+
+nav ul li a {
+    color: #fff !important;
+}
+
+nav ul li a:hover {
+    color: #ff800a !important;
+}
+nav .navbar-brand .icon::before {
+    color: #ff800a;
+}
+
+header .menu li{
+    display: inline;
+    margin-right: 15px; 
+}
+
+header .menu::after{
+    content: '';
+    height: 2px;
+    background: #fff;
+    width: 180%;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+header .row .highlighted {
+    margin: 60px 0px 30px 0px;
+}
+
+header .home-text {
+    color: #fff;
+    width: 360px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+header .home-text.highlighted {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+
+header .home-text.highlighted .icon {
+  margin-bottom: 10px;
+}
+
+header .home-text.description {
+    font-size: 18px;
+}
+
+header .row.warranty {
+  margin-top: 35px;
+}
+
+header .row.warranty .col-4 {
+  border-left: 3px solid #fff;
+  margin-left: 15px;
+}
+
+/*
+header .row.warranty .icons-home-horizontal {
+  text-decoration: none;
+  padding: 0px;
+  font-size: 25px;
+  margin-bottom: 0px;
+}*/
+
+header .row.warranty span {
+  font-size: 20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/*
+header .icons-home-horizontal li {
+  display: inline;
+}*/
+
+.plus {
+    position: absolute;
+    z-index: 900;
+}
+
+.plus .icon{
+    font-size: 30px;
+}
+
+.plus .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    border-radius: 5px;
+    color: #fff;
+    height: 50px;
+    padding: 20px;
+    position: relative;
+    top: -4px;
+    left: 4px;
+    z-index: 890;
+}
+
+
+.plus .text {
+    display: none;
+}
+
+.plus .icon:hover + .text {
+    display: inline;
+}
+
+.plus.ventana-top {
+    left: 5%;
+    top: 5%;
+}
+
+.plus.ventana-bot {
+    left: 7%;
+    top: 40%;
+}
+
+
+.plus.soc-left {
+    left: 7%;
+    top: 80%;
+}
+
+.plus.soc-middle {
+    left: 30%;
+    top: 85%;
+}
+
+.plus.soc-right {
+    left: 50%;
+    top: 80%;
+}
+
+.plus.wall-center {
+    left: 50%;
+    top: 30%;
+}
+
+
+.plus.wall-right {
+    left: 65%;
+    top: 20%;
+}
+
+/* NAVBAR */
+
+nav .navbar-brand {
+    position: relative;
+    left: 80px;
+}
+
+.navbar {
+    display:none;
+}
+
+
+
+.header-mobile {
+    display: none;
+}
+
+/*****************************************
+DISCRETAMENTE CONFORTABLE
+******************************************/
+.discretamente-confortable {
+    padding-top: 3px;
+    background-color: #32424B;
+}
+
+.discretamente-confortable .img{
+  height: 300px;
+}
+
+.discretamente-confortable .background {
+  background-position: bottom;
+}
+
+.discretamente-confortable .background.img-1 {
+  background-image: url('./../assets/img/d1.jpg');
+}
+
+.discretamente-confortable .background.img-2 {
+  background-image: url('./../assets/img/d2.jpg');
+}
+
+.discretamente-confortable .background.img-3 {
+  background-image: url('./../assets/img/d3.jpg');
+}
+
+.discretamente-confortable .content {
+  background: #32424B;
+  color: #fff;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.discretamente-confortable .icons-hot li .botton { 
+  position: relative;
+  top: 8px;
+}
+
+.discretamente-confortable .calefactor {
+  position: relative;
+  top: -30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.discretamente-confortable .calefactor ul {
+    margin: 10px auto;
+  }
+
+  .discretamente-confortable .calefactor ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+.discretamente-confortable .content h3 {
+  font-size: 50px;
+}
+
+.discretamente-confortable .content p {
+  font-size: 16px;
+}
+
+
+.discretamente-confortable .content h3::after {
+  content: '';
+  height: 1px;
+  width: 15%;
+  background: #fff;
+  display: block;
+  margin: 20px auto 20px auto;
+}
+
+/*********************
+DESCRIPTION ICONS
+*********************/
+section#description {
+    background: #EFE9DA;
+    min-height: 300px;
+    padding: 120px 0px;
+}
+
+#description .col .icon{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#description .col .description {
+   text-align: center;
+   font-size: 20px;
+}
+
+/*********************
+COSTO
+*********************/
+section#costo {
+    background: #38B449;
+    min-height: 300px;
+    padding: 120px 0px;
+}
+
+#costo .col-2 {
+    text-align: center;
+}
+
+#costo .box {
+    border: 1px solid #fff;
+    padding: 5px 20px 20px 20px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}
+
+#costo .box span{
+    font-size: 45px;
+    display: block;
+}
+
+#costo .description{
+  color: #fff;
+}
+
+
+/*********************
+GAMAS
+*********************/
+section#gamas {
+    background: #EF4036;
+}
+
+section#gamas .row .gama {
+    background-image: url('./../assets/img/gama.jpg');
+    background-position: bottom;
+    widows: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+}
+
+#gamas .colores-gamas .blanco {
+    background-image: url('../assets/img/gama-blanco.jpg');
+}
+
+#gamas .colores-gamas .marfil {
+    background-image: url('../assets/img/gama-marfil.jpg');
+}
+
+#gamas .colores-gamas .aluminio {
+    background-image: url('../assets/img/gama-aluminio.jpg');
+}
+
+#gamas .colores-gamas .bronce {
+    background-color: #665D1E;
+    /*background-image: url('../assets/img/gama-bronce.jpg');*/
+}
+
+#gamas .colores-gamas .chocolate {
+    background-color: #522d12;
+    /*background-image: url('../assets/img/gama-chocolate.jpg'); */
+}
+
+#gamas .colores-gamas .negro {
+    background-image: url('../assets/img/gama-negro.jpg');
+}
+
+section#gamas .colores-gamas {
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+}
+
+section#gamas .colores-gamas .icon {
+    position: relative;
+    bottom: 70px;
+    font-size: 30px;
+}
+
+section#gamas .colores-gamas .solapado {
+    position: relative;
+    bottom: 60px;
+    background-position: bottom;
+    height: 30px;
+    color: #fff;
+}
+
+section#gamas .colores-gamas span.solapado {
+    position: relative;
+    bottom: 40px;
+    background-position: bottom;
+    height: 30px;
+    color: #fff;
+}
+
+section#gamas .row .information {
+    text-align: center;
+    color: #fff;
+}
+
+section#gamas .row .information h5::after {
+    content: '';
+    display: block;
+    width: 10%;
+    height: 1px;
+    margin: 20px auto;
+    background: #fff;
+}
+
+section#gamas .row .information .box {
+    border: 1px solid #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 18px;
+    padding: 20px;
+}
+
+/********************
+COMPATIBLE CON TODA FUENTE DE CALOR
+*********************/
+section#compatible {
+    padding: 80px 0 100px 0;
+    background-color: #2B4049;
+    text-align: center;
+    color: #fff;
+}
+
+#compatible .first-info h3 {
+    font-size: 40px;
+}
+
+#compatible .first-info h3::after {
+    content: '';
+    height: 2px;
+    background: #fff;
+    width: 25%;
+    position: relative;
+    display: block;
+    margin: 40px auto;
+}
+
+#compatible .zocalo {
+    margin: 40px 0;
+}
+
+/*#compatible .first-info ul.icons-horizontal {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 25px;
+}*/
+/*
+#compatible .first-info ul.icons-horizontal li {
+    display: inline;
+}*/
+
+
+#compatible .box {
+    border: 1px solid #fff;
+    margin: 20px 0 100px 0;
+    padding: 20px; 
+}
+
+#compatible .box .row:first-child {
+    margin-bottom: 20px;
+}
+
+#compatible .argentino {
+    background-color: #1A2C33;
+}
+
+#compatible .argentino .flag {
+    position: relative;
+    bottom: 22px;
+}
+
+#compatible .argentino .img-socalo {
+    position: relative;
+    top: 60px;
+}
+
+#compatible .argentino .text-arg {
+    position: relative;
+    top: 40px;
+}
+
+#compatible .argentino .text-arg span {
+    color: #599fd8;
+}
+
+/********************
+FACIL INSTALACION
+*********************/
+section#easy {
+    background-color: #EFE9DA;
+    min-height: 300px;
+    padding: 40px 0;
+}
+
+#easy .icon {
+    font-size: 80px;
+}
+
+#easy .easy-instalation {
+    color: #38B449;
+    font-size: 40px;
+    background-color: #EFE9DA;
+}
+
+#easy .description {
+    font-size: 26px;
+}
+
+#easy .img-diagram {
+    margin: 40px 0;
+}
+
+/********************
+FOOTER
+*********************/
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/footer.jpg');
+    min-height: 300px;
+    color: #fff;
+    padding: 40px 0;
+}
+
+footer .header {
+    margin-bottom: 60px;
+}
+
+footer .icon-logo {
+    font-size: 40px;
+}
+
+footer .footer-list {
+    margin-top: 20px;
+    list-style: none;
+}
+
+footer .btn {
+    margin-top: 20px;
+}
+
+footer .btn.naranja {
+    background-color: #e9501e;
+    border: none;
+    float: right;
+}
+
+footer .btn.naranja:hover {
+    background-color: #ff800a;
+    border: none;
+    float: right;
+}
+
+footer .icon.logo::before {
+    color: #ff800a;
+}
+/********************
+GENERALS
+*********************/
+
+.center {
+  text-align: center;
+}
+.right-text {
+    text-align: right
+}
+
+header .icons-horizontal, section .icons-horizontal {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+header .icons-horizontal li, section .icons-horizontal li {
+    display: inline;
+}
+
+
+.icons-hot li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 35px;
+    font-size: 35px;
+}
+
+@keyframes changeImg{
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/**************************
+RESPONSIVE DESIGN
+**************************/
+
+@media only screen and (max-width: 1204px) {
+    .navbar {
+        display: block;
+    }
+
+    .header-mobile {
+        margin-top: 56px; /** for menu **/
+        display: block;
+        background-image: url('../assets/img/home.jpg');
+        background-size: cover;
+        background-position: left bottom;
+        min-height: 400px;
+        color: #fff;
+    }
+
+    .header-mobile .icon {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 100px;
+    }
+
+    .header-mobile .text {
+        font-size: 30px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .plus {
+        display: none;
+    }
+
+    .layer {
+        display: none;
+    }
+
+    .principal {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1204px) and (max-width: 1415px) {
+    header .logo {
+        margin-left: 80px;
+    }
+
+    header .home-text {
+        padding-left: 100px;
+    }
+
+    header .row.warranty .col-4 {
+        border-left: none; 
+        margin-left: 0px; 
+    }
+}
