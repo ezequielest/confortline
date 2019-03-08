@@ -5,7 +5,7 @@ $datos = array();
 if(isset($_POST['email'])) {
 
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-$email_to = "ConfortLine <ezequiel.estigarribia@gmail.com>";
+$email_to = "ezequiel.estigarribia@gmail.com";
 //$email_from ="MeixnerGroup";
 $email_subject = "Contacto desde ConfortLine";
 

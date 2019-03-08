@@ -42,6 +42,7 @@ $( "form" ).on( "submit", function( event ) {
         data: formData
       })
     .done(function( res ) {
+        console.log(res)
        if (res.respuesta == 'ok') {
            $('#rta').html('mensaje enviado con éxito');
        } else {
