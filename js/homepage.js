@@ -38,7 +38,7 @@ $( "form" ).on( "submit", function( event ) {
     var formData = $( this ).serialize();
     $.ajax({
         method: "POST",
-        url: "./../mail.php",
+        url: "./../sendEmail.php",
         data: formData
       })
     .done(function( res ) {
