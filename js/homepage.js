@@ -20,13 +20,38 @@ obj.scroll(function(){
 function calcScroll () {
     var obj_act_top = $(this).scrollTop();  //obtener scroll top instantaneo
     if (obj_act_top > 50 ||  $( window ).width() < 1204) {
+        $('#navbarHome').fadeIn('slow');
         document.getElementById('navbarHome').style.display = 'flex'
     } else {
         //scroll hacia arriba
-        document.getElementById('navbarHome').style.display = 'none'
+        //document.getElementById('navbarHome').style.display = 'none'
+        $('#navbarHome').fadeOut('slow');
     }
     return obj_act_top; 
 }
+
+/****
+ *  ANCLA EFFECT
+ ***/
+$('nav a').click(function(e){	
+    e.preventDefault();	
+    el = this			
+    effect(el);
+});
+
+$('.menu a').click(function(e){
+    e.preventDefault();	
+    el = this
+    effect(el);
+});
+
+function effect(el) {
+    var strAncla=$(el).attr('href'); //id del ancla
+    $('body,html').stop(true,true).animate({				
+        scrollTop: $(strAncla).offset().top - 40
+    },1500);
+}
+
 
 /*******
  *  ENVIO EMAIL
@@ -42,7 +67,7 @@ $( "form" ).on( "submit", function( event ) {
         data: formData
       })
     .done(function( res ) {
-        console.log(res)
+        res = JSON.parse(res);
        if (res.respuesta == 'ok') {
            $('#rta').html('mensaje enviado con éxito');
        } else {
@@ -54,5 +79,10 @@ $( "form" ).on( "submit", function( event ) {
     });
   });
 
+
+
+/***
+ * EFFECT HOME
+ */
 
 

@@ -1,3 +1,5 @@
+
+
 .principal {
     position: absolute;
     top: 0px;
@@ -10,6 +12,7 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
+    animation-direction: alternate;
     z-index: 800;
 }
 
@@ -216,6 +219,10 @@ nav .navbar-brand {
     display:none;
 }
 
+.nav {
+    margin-right: 64px;
+}
+
 
 
 .header-mobile {
@@ -227,6 +234,7 @@ DISCRETAMENTE CONFORTABLE
 ******************************************/
 .discretamente-confortable {
     padding-top: 3px;
+    padding-bottom: 60px;
     background-color: #32424B;
 }
 
@@ -256,10 +264,6 @@ DISCRETAMENTE CONFORTABLE
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-.discretamente-confortable .icons-hot li .botton { 
-  position: relative;
-  top: 8px;
-}
 
 .discretamente-confortable .calefactor {
   position: relative;
@@ -465,6 +469,10 @@ section#compatible {
     margin: 40px 0;
 }
 
+#compatible .temp {
+    text-align: right;
+}
+
 /*#compatible .first-info ul.icons-horizontal {
     text-decoration: none;
     padding: 0px;
@@ -544,6 +552,8 @@ footer {
     min-height: 300px;
     color: #fff;
     padding: 40px 0;
+    background-size: cover;
+    background-position: bottom right;
 }
 
 footer .header {
@@ -578,6 +588,23 @@ footer .btn.naranja:hover {
 footer .icon.logo::before {
     color: #ff800a;
 }
+
+footer .mailto {
+    color: #ff800a;
+}
+
+footer .logo {
+    font-size: 30px;
+}
+
+#endWeb {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 12px;
+}
+
 /********************
 GENERALS
 *********************/
@@ -585,6 +612,7 @@ GENERALS
 .center {
   text-align: center;
 }
+
 .right-text {
     text-align: right
 }
@@ -608,18 +636,30 @@ header .icons-horizontal li, section .icons-horizontal li {
     font-size: 35px;
 }
 
+.pulse {
+    -webkit-animation: pulse-color 2s infinite; /* Safari 4+ */
+    -moz-animation:    pulse-color 2s infinite; /* Fx 5+ */
+    -o-animation:      pulse-color 2s infinite; /* Opera 12+ */
+    animation:         pulse-color 2s infinite; /* IE 10+, Fx 29+ */
+    animation-direction: alternate;
+}
+
+.pulse-2 {
+    -webkit-animation: pulse-color 5s infinite; /* Safari 4+ */
+    -moz-animation:    pulse-color 5s infinite; /* Fx 5+ */
+    -o-animation:      pulse-color 5s infinite; /* Opera 12+ */
+    animation:         pulse-color 5s infinite; /* IE 10+, Fx 29+ */
+    animation-direction: alternate;
+}
+
 @keyframes changeImg{
     0% {
         opacity: 0;
     }
-
-    50% {
+    100% {
         opacity: 1;
     }
 
-    100% {
-        opacity: 0;
-    }
 }
 
 /**************************
@@ -632,19 +672,30 @@ RESPONSIVE DESIGN
     }
 
     .header-mobile {
-        margin-top: 56px; /** for menu **/
+        /*margin-top: 56px; */
         display: block;
         background-image: url('../assets/img/home.jpg');
         background-size: cover;
         background-position: left bottom;
-        min-height: 400px;
+        height: calc(100vh - 56px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: #fff;
     }
 
     .header-mobile .icon {
-        padding-top: 40px;
+        /*padding-top: 40px;*/
         padding-bottom: 40px;
         font-size: 100px;
+    }
+
+    .header-mobile .icon::before {
+        -webkit-animation: pulse-color 2s infinite; /* Safari 4+ */
+        -moz-animation:    pulse-color 2s infinite; /* Fx 5+ */
+        -o-animation:      pulse-color 2s infinite; /* Opera 12+ */
+        animation:         pulse-color 2s infinite; /* IE 10+, Fx 29+ */
+        animation-direction: alternate;
     }
 
     .header-mobile .text {
@@ -681,5 +732,157 @@ RESPONSIVE DESIGN
     header .row.warranty .col-4 {
         border-left: none; 
         margin-left: 0px; 
+    }
+}
+
+@media (max-width: 580px) {
+    h3 {
+        font-size: 30px !important;
+    }
+
+    #compatible .temp {
+        text-align: center;
+    }
+
+    #costo .box {
+        margin: 30px 0;
+    }
+
+    #gamas .icon {
+        visibility: hidden;
+    }
+
+    .discretamente-confortable .img {
+        background-position: right 180px;
+        height: 150px;
+    }
+
+    #compatible .box .row:first-child {
+        margin-bottom: 0;
+    }
+
+    .header-mobile {
+        background-position: -340px bottom;
+        height: calc(100vh - 94px);
+    }
+
+    .header-mobile .middle {
+        margin-bottom: 30px;
+    }
+
+    #costo .description {
+        text-align: center;
+    }
+
+    #endWeb {
+        font-size: 10px;
+    }
+
+
+}
+
+/** 
+* EFFECT FIRE
+**/
+
+.fire {
+    position: relative;
+    -webkit-animation: fire 1s infinite; /* Safari 4+ */
+    -moz-animation:    fire 1s infinite; /* Fx 5+ */
+    -o-animation:      fire 1s infinite; /* Opera 12+ */
+    animation:         fire 1s infinite; /* IE 10+, Fx 29+ */
+}
+
+.fire-2 {
+    position: relative;
+    -webkit-animation: fire-2 2s infinite; /* Safari 4+ */
+    -moz-animation:    fire-2 2s infinite; /* Fx 5+ */
+    -o-animation:      fire-2 2s infinite; /* Opera 12+ */
+    animation:         fire-2 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+.fire-3 {
+    position: relative;
+    -webkit-animation: fire-gamas 2s infinite; /* Safari 4+ */
+    -moz-animation:    fire-gamas 2s infinite; /* Fx 5+ */
+    -o-animation:      fire-gamas 2s infinite; /* Opera 12+ */
+    animation:         fire-gamas 2s infinite; /* IE 10+, Fx 29+ */
+}
+
+
+
+@keyframes fire {
+    0%   {
+        opacity: 1;
+        bottom: 0px;
+    }
+    100% {
+        opacity: 0;
+        bottom: 20px;
+    }
+}
+
+@keyframes fire-2 {
+    0%   {
+        opacity: 1;
+        bottom: -20px;
+    }
+    100% {
+        opacity: 0;
+        bottom: 20px;
+    }
+}
+
+@keyframes fire-gamas {
+    0%   {
+        opacity: 1;
+        bottom: 70px;
+    }
+    100% {
+        opacity: 0;
+        bottom: 80px;
+    }
+}
+
+/* PULSE CHANGE COLOR*/
+
+@keyframes pulse-color {
+    0%   {
+        color: #fff;
+    }
+    100% {
+        opacity: 1;
+        color: #ee761b;
+    }
+}
+
+/**
+* EFFECT PLUS
+**/
+
+.plus .icon.eff {
+    -webkit-animation: plus 5s infinite; /* Safari 4+ */
+    -moz-animation:    plus 5s infinite; /* Fx 5+ */
+    -o-animation:      plus 5s infinite; /* Opera 12+ */
+    animation:         plus 5s infinite; /* IE 10+, Fx 29+ */
+    animation-direction: alternate;
+}
+
+.plus .icon.eff-2 {
+   
+    -webkit-animation: plus 5s infinite; /* Safari 4+ */
+    -moz-animation:    plus 5s infinite; /* Fx 5+ */
+    -o-animation:      plus 5s infinite; /* Opera 12+ */
+    animation:         plus 5s infinite; /* IE 10+, Fx 29+ */
+    animation-direction: alternate;
+    animation-delay: 5s;
+}
+
+@keyframes plus {
+    0%   {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.25;
     }
 }

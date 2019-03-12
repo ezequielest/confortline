@@ -4,47 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Sistema de calefacción por zócalos radiantes para su hogar" />
+    <meta name="keywords" content="zócalos, radiantes, calefacción, sistema de calefacción, hogar, radiadores" />
     <title>ConfortLine</title>
 
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/icons.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png"/>
 </head>
 <body>
     <div class="container" id="home">
         <nav id="navbarHome" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><span class="icon icon-Confortline-final_ELEMENTOS-04"></span> ConfortLine</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+            <a class="navbar-brand" href="#"><span class="icon icon-Confortline-final_ELEMENTOS-04"></span> ConfortLine</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navc navbar-right navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navc navbar-right navbar-nav mr-auto">
 
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item">
-                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#description">Caracteristicas</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#costo">Ahorre dinero</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#gamas">Colores</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#compatible">Producto</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
-            <li class="nav-item"><a href="https://www.facebook.com/Confortline-Zocalos-Radiantes-459936174372949/" target="_blank"><img src="./assets/img/Confortline-facebook.png" alt=""></a></li>
-        </ul>
-        </div>
-    </nav>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#description">Caracteristicas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#costo">Ahorre dinero</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gamas">Colores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#compatible">Producto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                <li class="nav-item"><a href="https://www.facebook.com/Confortline-Zocalos-Radiantes-459936174372949/" target="_blank"><img src="./assets/img/Confortline-facebook.png" alt=""></a></li>
+            </ul>
+            </div>
+        </nav>
     </div>
 
 
@@ -72,10 +75,8 @@
 
       <div class="row highlighted" >
           <div class="col-xl-5 home-text highlighted">
-              <div class="icon icon-Confortline-final_ELEMENTOS-04"></div>
-              Sistema de
-              calefacción por
-              zócalos radiantes.
+              <div class="icon icon-Confortline-final_ELEMENTOS-04 pulse-2"></div>
+              Sistema de calefacción por <span class="pulse-2">zócalos radiantes.</span>
           </div>
       </div>
 
@@ -102,9 +103,10 @@
   <div class="header-mobile">
     <div class="col-12 center middle">
         <div class="icon icon-Confortline-final_ELEMENTOS-04"></div>
-        <span class="text">Sistema de
-        calefacción <br>por
-        <b>ócalos radiantes.</b>
+        <span class="text">
+            Sistema de <br> 
+            calefacción por <br>
+            <b class="pulse">zócalos radiantes.</b>
         </span>
     </div>
   </div>
@@ -113,37 +115,37 @@
     PLUS
   ********************************* -->
   <div class="plus ventana-top">
-      <span class="icon icon-Confortline-final_ELEMENTOS-07"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
-      <span class="text">Evita condensacion</span>
+      <span class="icon icon-Confortline-final_ELEMENTOS-07 eff"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+      <span class="text">Evita condensación</span>
   </div>
 
   <div class="plus ventana-bot">
-      <span class="icon icon-Confortline-final_ELEMENTOS-07"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+      <span class="icon icon-Confortline-final_ELEMENTOS-07 eff-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
       <span class="text">Aislador de la temperatura exterior</span>
   </div>
 
   <div class="plus soc-left">
-      <span class="icon icon-Confortline-final_ELEMENTOS-07"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+      <span class="icon icon-Confortline-final_ELEMENTOS-07 eff"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
       <span class="text">Ahorro de energí ecologicamente sustentable</span>
   </div>
 
   <div class="plus soc-middle">
-      <span class="icon icon-Confortline-final_ELEMENTOS-07"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+      <span class="icon icon-Confortline-final_ELEMENTOS-07 eff-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
       <span class="text">Bajo costo de instalación</span>
   </div>
 
   <div class="plus soc-right">
-      <span class="icon icon-Confortline-final_ELEMENTOS-07"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+      <span class="icon icon-Confortline-final_ELEMENTOS-07 eff"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
       <span class="text">Facíl instalación, hagalo usted mismo</span>
   </div>
 
   <div class="plus wall-center">
-      <span class="icon icon-Confortline-final_ELEMENTOS-07"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
-      <span class="text">No mas humedad es sus paredes</span>
+      <span class="icon icon-Confortline-final_ELEMENTOS-07 eff-2"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+      <span class="text">No más humedad es sus paredes</span>
   </div>
 
   <div class="plus wall-right">
-      <span class="icon icon-Confortline-final_ELEMENTOS-07"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
+      <span class="icon icon-Confortline-final_ELEMENTOS-07 eff"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
       <span class="text">Crea un ambiente más amplio y agradable</span>
   </div>
   <!-- *****************************
@@ -152,21 +154,21 @@
 
   <section class="container-fluid discretamente-confortable">
     <div class="row">
-      <div class="col-sx-6 col-md-4 background img img-1"></div>
-      <div class="col-sx-6 col-md-4 background img img-2"></div>
-      <div class="col-sx-12 col-md-4 background img img-3"></div>
+      <div class="d-none d-sm-block col-xs-6 col-md-4 background img img-1"></div>
+      <div class="col-xs-6 col-md-4 background img img-2"></div>
+      <div class="d-none d-sm-block col-sx-12 col-md-4 background img img-3"></div>
     </div>
     <div class="row justify-content-center content">
-      <div class="col-6">
+      <div class="col-xs-12 col-sm-6">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12">
               <div class="calefactor">
                 <ul class="icons-hot">
-                  <li><span class="icon-seleCccin_zocalos-19"></span></li>
-                  <li><span class="botton icon-seleCccin_zocalos-19"></span></li>
-                  <li><span class="icon-seleCccin_zocalos-19"></span></li>
-                  <li><span class="botton icon-seleCccin_zocalos-19"></span></li>
+                  <li><span class="icon-seleCccin_zocalos-19 fire-2"></span></li>
+                  <li><span class="botton icon-seleCccin_zocalos-19 fire"></span></li>
+                  <li class="d-none .d-sm-block"><span class="icon-seleCccin_zocalos-19 fire-2"></span></li>
+                  <li class="d-none .d-sm-block"><span class="botton icon-seleCccin_zocalos-19 fire"></span></li>
                 </ul>
                 <img style="margin: 0 auto;" class="img-fluid" src="./assets/img/calefactor.png" alt="">
               </div>
@@ -238,32 +240,32 @@
     </div>
     <div class="container colores-gamas">
         <div class="row">
-            <div class="col">
-                <span class="icon icon-seleCccin_zocalos-19"></span>
+            <div class="col-xs-12 col-sm-2">
+                <span class="icon icon-seleCccin_zocalos-19 fire-3"></span>
                 <div class="block blanco solapado"></div>
                 <span class="solapado">Blanco</span>
             </div>
-            <div class="col">
+            <div class="col-xs-12 col-sm-2">
                 <span class="icon icon-seleCccin_zocalos-19"></span>
                 <div class="block negro solapado"></div>
                 <span class="solapado">Negro</span>
             </div>
-            <div class="col">
-                <span class="icon icon-seleCccin_zocalos-19"></span>
+            <div class="col-xs-12 col-sm-2">
+                <span class="icon icon-seleCccin_zocalos-19 fire-3"></span>
                 <div class="block bronce solapado"></div>
                 <span class="solapado">Bronce colonial</span>
             </div>
-            <div class="col">
+            <div class="col-xs-12 col-sm-2">
                 <span class="icon icon-seleCccin_zocalos-19"></span>
                 <div class="block marfil solapado"></div>
                 <span class="solapado">Marfil</span>
             </div>
-            <div class="col">
-                <span class="icon icon-seleCccin_zocalos-19"></span>
+            <div class="col-xs-12 col-sm-2">
+                <span class="icon icon-seleCccin_zocalos-19 fire-3"></span>
                 <div class="block chocolate solapado"></div>
                 <span class="solapado">Chocolate</span>
             </div>
-            <div class="col">
+            <div class="col-xs-12 col-sm-2">
                 <span class="icon icon-seleCccin_zocalos-19"></span>
                 <div class="block aluminio solapado"></div>
                 <span class="solapado">Aluminio</span>
@@ -271,7 +273,7 @@
         </div>
 
         <div class="row">
-            <div class="col information">
+            <div class="col-12 information">
                 <h2>Gama de perfiles y colores</h2>
                 <h5>Un detalle distintivo sobre cualquier superficie</h5>
                 <p>Dando detalles distintivos a los ambientes. Los zócalos radiantes Confortline se encuentran
@@ -301,45 +303,63 @@
                 <div class="row zocalo">
                     <div class="col">
                         <ul class="icons-horizontal icons-hot">
-                            <li><span class="icon-seleccin_zocalos-21"></span></li>
-                            <li><span class="icon-seleccin_zocalos-21"></span></li>
-                            <li><span class="icon-seleccin_zocalos-21"></span></li>
-                            <li><span class="icon-seleccin_zocalos-21"></span></li>
+                            <li><span class="icon-seleccin_zocalos-21 fire"></span></li>
+                            <li class="d-none d-sm-inline"><span class="icon-seleccin_zocalos-21 fire-2"></span></li>
+                            <li class="d-none d-sm-inline"><span class="icon-seleccin_zocalos-21 fire"></span></li>
+                            <li class="d-none d-sm-inline"><span class="icon-seleccin_zocalos-21 fire-2"></span></li>
                         </ul>
                         <img class="img-fluid" src="./assets/img/internal-circuit.png">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <div class="container box">
+                        <div class="container box d-none d-sm-block ">
                             <div class="row justify-content-center">
-                                <div class="col-3 right-text">Temperatura del agua.</div>
-                                <div class="col-1"><span class="icon-water"></span></div>
-                                <div class="col-7">
+                                <div class="col-xs-12 col-sm-3 temp">Temperatura <span class="d-none .d-sm-block">del agua.</span></div>
+                                <div class="col-xs-12 col-sm-1"><span class="icon-water"></span></div>
+                                <div class="col-xs-12 col-sm-7">
                                     <div class="row">
-                                        <div class="col-2">40 ºC</div>
-                                        <div class="col-2">50 ºC</div>
-                                        <div class="col-2">60 ºC</div>
-                                        <div class="col-2">70 ºC</div>
-                                        <div class="col-2">75 ºC</div>
+                                        <div class="col-xs-2 col-2">40 ºC</div>
+                                        <div class="col-xs-2 col-2">50 ºC</div>
+                                        <div class="col-xs-2 col-2">60 ºC</div>
+                                        <div class="col-xs-2 col-2">70 ºC</div>
+                                        <div class="col-xs-2 col-2">75 ºC</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row justify-content-center">
-                                <div class="col-3 right-text">Poder Calorífico por metro lineal.</div>
-                                <div class="col-1"><span class="icon-fire"></span></div>
-                                <div class="col-7">
+                                <div class="col-xs-12 col-sm-3 temp">Poder Calorífico <span class="d-none .d-sm-block">por metro lineal.</span></div>
+                                <div class="col-xs-12 col-sm-1"><span class="icon-fire"></span></div>
+                                <div class="col-xs-12 col-sm-7">
                                     <div class="row">
-                                        <div class="col-2"> 49 w/m</div>
-                                        <div class="col-2">76 w/m</div>
-                                        <div class="col-2">105 w/m</div>
-                                        <div class="col-2">137 w/m</div>
-                                        <div class="col-2">160 w/m</div>
+                                        <div class="col-xs-2 col-2">49 w/m</div>
+                                        <div class="col-xs-2 col-2">76 w/m</div>
+                                        <div class="col-xs-2 col-2">105 w/m</div>
+                                        <div class="col-xs-2 col-2">137 w/m</div>
+                                        <div class="col-xs-2 col-2">160 w/m</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                      
+
+                        <div class="container box d-block d-sm-none">
+                            <div class="row justify-content-center">
+                                <div class="col-xs-12 col-sm-3 temp">Temp. x Poder Calorífico</div>
+                                <div class="col-xs-12 col-sm-1">
+                                    <span class="icon-water"></span>
+                                    <span class="icon-fire"></span>
+                                </div>
+                                <div class="col-xs-12 col-sm-7">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-12">40 ºC -> 49 w/m</div>
+                                        <div class="col-xs-12 col-12">50 ºC -> 76 w/m</div>
+                                        <div class="col-xs-12 col-12">60 ºC -> 105 w/m</div>
+                                        <div class="col-xs-12 col-12">70 ºC -> 137 w/m</div>
+                                        <div class="col-xs-12 col-12">75 ºC -> 160 w/m</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -388,8 +408,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-7">
-                <p class="description">Sencilla instalación que la puede realizar su constructor
-                o hasta la puede realizar usted mismo.</p>
+                <p class="description">Hágalo usted mismo o su profesional de confianza.</p>
             </div>
         </div>
         <div class="row">
@@ -416,15 +435,16 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                               <!--<span class="icon-logo icon-logo-footer"> </span>-->
-                               <span class="icon icon-Confortline-final_ELEMENTOS-04 logo"></span> ConfortLine
+                                <!--<span class="icon-logo icon-logo-footer"> </span>-->
+                                <span class="logo">
+                                    <span class="icon icon-Confortline-final_ELEMENTOS-04 logo"></span> 
+                                    ConfortLine
+                                </span>
                                <ul class="footer-list">
                                    <li>Estamos a disposición para recibir su consulta.</li>
-                                   <li> Confort Line Store:</li>
+                                   <li>Confort Line Store:</li>
                                    <li>Diseñado y fabricado en Argentina.</li>
-                                   <li>Mar del Plata | CP 7600</li>
-                                   <li>Buenos Aires · Argentina</li>
-                                   <li>Email: zocalosconfortline@gmail.com</li>
+                                   <li><a class="mailto" href="mailto:zocalosconfortline@gmail.com">zocalosconfortline@gmail.com</a></li>
                                    <li>Industria Argentina • Orgullo Nacional</li>
                                </ul>
                             </div>
@@ -459,6 +479,9 @@
           </div>
       </div>
   </footer>
+  <section id="endWeb" class="center">
+    ConfortLine <?php echo date('Y'); ?> | Mar del Plata - CP 7600 · Buenos Aires · Argentina
+  </section>
 
   <script src="./js/jquery-3-3-1.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
